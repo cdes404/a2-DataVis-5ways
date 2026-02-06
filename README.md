@@ -1,7 +1,7 @@
 Assignment 2 - Data Visualization, 5 Ways  
 Claire Desrosiers
 
-Link: https://cdes404.github.io/a2-DataVis-5ways
+Link: https://github.com/cdes404/a2-DataVis-5ways.git
 
 ## 1. d3.js
 
@@ -12,7 +12,7 @@ I loaded the CSV file using `d3.csv()`, mapped the flipper length and body mass 
 - Usefulness: Ideal for interactive web visualizations and custom designs.  
 - Hacks/Data manipulation: Filtered out rows with missing bill length values to avoid rendering errors.
 
-![alt text](d3.png)
+![alt text](img/d3.png)
 
 ---
 
@@ -25,7 +25,7 @@ I used p5.js to draw circles for each penguin, scaling the x and y positions man
 - Usefulness: Great for artistic or experimental visualizations where traditional chart libraries are limiting.  
 - Hacks/Data manipulation: Normalized flipper length and body mass to fit canvas dimensions.
 
-![alt text](p5.png)
+![alt text](img/p5.png)
 
 ---
 
@@ -38,7 +38,7 @@ I created the scatterplot using `alt.Chart()` with `.mark_circle()`, encoding x,
 - Usefulness: Excellent for quick, clean visualizations in Python with minimal code.  
 - Hacks/Data manipulation: Dropped missing values using `pandas.dropna()` to avoid plotting errors.
 
-![alt text](altair.png)
+![alt text](img/altair.png)
 
 ---
 
@@ -50,7 +50,7 @@ I used `px.scatter()` to map flipper length vs. body mass, setting color to spec
 - Usefulness: good for dashboards or sharing interactive charts online.  
 - Hacks/Data manipulation: Filtered dataset to remove missing bill lengths.
 
-![alt text](plotly.png)
+![alt text](img/plotly.png)
 
 ---
 
@@ -63,7 +63,7 @@ I defined a JSON specification for the scatterplot, encoding x, y, color, size, 
 - Usefulness: Good for formal, shareable visualization specifications that are portable across platforms.  
 - Hacks/Data manipulation: Adjusted axis scales to approximate the example plot.
 
-![alt text](vegaLite.png)
+![alt text](img/vegaLite.png)
 
 ---
 
