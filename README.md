@@ -1,7 +1,7 @@
 Assignment 2 - Data Visualization, 5 Ways  
 Claire Desrosiers
 
-Link: https://github.com/cdes404/a2-DataVis-5ways.git
+Link: https://cdes404.github.io/a2-DataVis-5ways/
 
 ## 1. d3.js
 
